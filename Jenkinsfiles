@@ -1,7 +1,7 @@
 node{
-  stage( ' scm chekout'){
+  stage('scm chekout'){
   
-  git 'https://github.com/rishireddyg/new_repo_practice'
+  git 'https://github.com/rishireddyg/new_repo_practice.git'
   }
   stage('compile-package'){
   sh 'mvn pacage'
