@@ -4,6 +4,6 @@ node{
   git 'https://github.com/rishireddyg/new_repo_practice.git'
   }
   stage('compile-package'){
-  sh 'mvn pacage'
+  sh 'mvn package'
   }
   }
